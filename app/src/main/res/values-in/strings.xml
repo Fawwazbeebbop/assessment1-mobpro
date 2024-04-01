@@ -5,9 +5,9 @@
     <string name="introduction">Selamat Datang di Mo-Note \n (Money-Note)</string>
     <string name="start_button">mulai</string>
     <string name="back_button">kembali</string>
-    <string name="description">"Mo-Note merupakan aplikasi pencatat keuangan yang dapat membantu menghitung
-        pengeluaran uang pengguna selama setahun. Aplikasi ini menghitung rata rata uang yang dikeluarkan setiap
-        periode dengan 1 periode memiliki selang waktu 6 bulan "</string>
+    <string name="description">Mo-Note merupakan aplikasi pencatat keuangan yang dapat membantu menghitung
+    pengeluaran uang pengguna selama setahun. Aplikasi ini menghitung rata rata uang yang dikeluarkan setiap
+    periode dengan 1 periode memiliki selang waktu 6 bulan.</string>
     <string name="expense_1">Pengeluaran 1</string>
     <string name="expense_2">Pengeluaran 2</string>
     <string name="expense_3">Pengeluaran 3</string>
