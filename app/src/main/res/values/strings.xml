@@ -1,5 +1,17 @@
 <resources>
     <string name="app_name">Mo-Note</string>
-    <string name="introduction">Welcome to Mo-Note (Money Note)</string>
-    <string name="start">Get Started</string>
+    <string name="greeting">Start</string>
+    <string name="introduction">Welcome to Mo-Note \n (Money Note)</string>
+    <string name="start_button">Start</string>
+    <string name="back_button">back</string>
+    <string name="description">Mo-Note is a financial note-taking application that can help calculate the users
+    expenditure over the course of a year. This application calculates the average amount of money spent per
+    period, with each period having 6 month interval.</string>
+    <string name="expense_1">Expenses 1</string>
+    <string name="expense_2">Expenses 2</string>
+    <string name="expense_3">Expenses 3</string>
+    <string name="period_1">Period 1</string>
+    <string name="period_2">Period 2</string>
+    <string name="count">Count</string>
+    <string name="copyright">Copyright © 2024 Fawwaz Maulana. All Rights Reserved.</string>
 </resources>
