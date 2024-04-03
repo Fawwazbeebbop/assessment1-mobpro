@@ -18,8 +18,9 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Warning
+import androidx.compose.material.icons.outlined.List
 import androidx.compose.material3.Button
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -50,6 +51,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import org.d3if3051.assessmen1.R
+import org.d3if3051.assessmen1.navigation.ScreenApp
 import org.d3if3051.assessmen1.ui.theme.Assessmen1Theme
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -61,7 +63,7 @@ fun AppScreen(navController: NavHostController){
                 navigationIcon = {
                       IconButton(onClick = { navController.popBackStack() }) {
                           Icon(
-                              imageVector = Icons.Filled.ArrowBack,
+                              imageVector = Icons.Filled.Home,
                               contentDescription = stringResource(R.string.back_button),
                               tint = MaterialTheme.colorScheme.primary
                           )
@@ -72,8 +74,19 @@ fun AppScreen(navController: NavHostController){
                 },
                 colors = TopAppBarDefaults.mediumTopAppBarColors(
                     containerColor = MaterialTheme.colorScheme.primaryContainer,
-                    titleContentColor =MaterialTheme.colorScheme.primary
-                )
+                    titleContentColor = MaterialTheme.colorScheme.primary
+                ),
+                actions ={
+                    IconButton(onClick = {
+                        navController.navigate(ScreenApp.List.route)
+                    }) {
+                        Icon(
+                            imageVector = Icons.Outlined.List,
+                            contentDescription = stringResource(R.string.history_button),
+                            tint = MaterialTheme.colorScheme.primary
+                        )
+                    }
+                }
             )
         }
     ){ padding ->

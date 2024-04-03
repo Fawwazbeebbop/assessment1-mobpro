@@ -7,6 +7,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import org.d3if3051.assessmen1.ui.screen.AppScreen
 import org.d3if3051.assessmen1.ui.screen.FirstScreen
+import org.d3if3051.assessmen1.ui.screen.HistoryScreen
 
 @Composable
 fun SetupNavGraph(navController: NavHostController = rememberNavController()){
@@ -19,6 +20,9 @@ fun SetupNavGraph(navController: NavHostController = rememberNavController()){
         }
         composable(route = ScreenApp.Content.route){
             AppScreen(navController)
+        }
+        composable(route = ScreenApp.List.route){
+            HistoryScreen(navController)
         }
     }
 }

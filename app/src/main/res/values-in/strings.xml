@@ -20,4 +20,8 @@
     <string name="average">Rata-rata 1 periode</string>
     <string name="share_button">Pengeluaran 1: %1$s IDR\nPengeluaran 2: %2$s IDR\nPengeluaran 3: %3$s IDR\n\nRata-rata: %4$s</string>
     <string name="share">Bagikan</string>
+    <string name="clicky_list">%1$s Rata-rata pengeluaran kamu di tahun dan periode ini !</string>
+    <string name="empty_list">List ini Kosong !</string>
+    <string name="history_button">terdahulu</string>
+    <string name="history">Catatan Terdahulu</string>
 </resources>
