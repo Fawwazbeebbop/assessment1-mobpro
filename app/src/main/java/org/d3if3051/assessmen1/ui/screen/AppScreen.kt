@@ -240,11 +240,17 @@ fun ScreenContent(modifier: Modifier){
         Text(text = stringResource(R.string.average) + ": $mean IDR", modifier = Modifier.padding(top = 8.dp))
         
         Button(onClick = {
+            if(expense1.isEmpty() || expense2.isEmpty() || expense3.isEmpty()){
+                expError1 = expense1.isEmpty()
+                expError2 = expense2.isEmpty()
+                expError3 = expense3.isEmpty()
+            }else {
                 shareData(
                     context = context,
                     message = context.getString(R.string.share_button,
-                            expense1, expense2, expense3, mean)
-                    )},
+                        expense1, expense2, expense3, mean)
+                )}
+             },
             modifier = Modifier.padding(top = 8.dp),
             contentPadding = PaddingValues(horizontal = 32.dp, vertical = 16.dp)
         ) {
