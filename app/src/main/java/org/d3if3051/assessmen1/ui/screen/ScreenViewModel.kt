@@ -11,61 +11,78 @@ class ScreenViewModel : ViewModel() {
         data.add(
             History(
                 "Period 1 2024",
-                "305000.01 IDR"
+                "305000.01 IDR",
+                "30-6-2024"
             )
         )
         data.add(
             History(
                 "Period 2 2023",
-                "250000.60 IDR"
+                "250000.60 IDR",
+                "31-12-2023"
             )
         )
         data.add(
             History(
                 "Period 1 2023",
-                "620000.30 IDR"
+                "620000.30 IDR",
+                "30-6-2023"
             )
         )
         data.add(
             History(
                 "Period 2 2022",
-                "540000.60 IDR"
+                "540000.60 IDR",
+                "31-12-2022"
             )
         )
         data.add(
             History(
                 "Period 1 2022",
-                "345500.35 IDR"
+                "345500.35 IDR",
+                "30-6-2022"
             )
         )
         data.add(
             History(
                 "Period 2 2021",
-                "846700.34 IDR"
+                "846700.34 IDR",
+                "31-12-2021"
             )
         )
         data.add(
             History(
                 "Period 1 2021",
-                "678900.56 IDR"
+                "678900.56 IDR",
+                "30-6-2021"
             )
         )
         data.add(
             History(
                 "Period 2 2020",
-                "234600.80 IDR"
+                "234600.80 IDR",
+                "31-12-2020"
             )
         )
         data.add(
             History(
                 "Period 1 2020",
-                "904300.90 IDR"
+                "904300.90 IDR",
+                "30-6-2020"
             )
         )
         data.add(
             History(
                 "Period 2 2019",
-                "120000.60 IDR"
+                "120000.60 IDR",
+                "31-12-2019"
+            )
+        )
+        data.add(
+            History(
+                "Period 1 2019",
+                "120000.60 IDR",
+                "30-6-2019"
             )
         )
         return  data

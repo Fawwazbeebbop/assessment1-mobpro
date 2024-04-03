@@ -250,6 +250,7 @@ fun ScreenContent(modifier: Modifier){
         ) {
             Text(text = stringResource(R.string.share))
         }
+        Text(text = stringResource(R.string.copyright), modifier = Modifier.padding(top = 8.dp))
     }
 }
 

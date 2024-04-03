@@ -106,7 +106,7 @@ fun ListItem(history: History, onClick: () -> Unit){
             .fillMaxWidth()
             .clickable { onClick() }
             .padding(16.dp),
-        verticalArrangement = Arrangement.spacedBy(8.dp)
+        verticalArrangement = Arrangement.spacedBy(10.dp)
     ) {
         Text(
             text = history.title,
@@ -116,6 +116,10 @@ fun ListItem(history: History, onClick: () -> Unit){
         Text(
             text = history.avg,
             maxLines = 2
+        )
+        Text(
+            text = history.date,
+            maxLines = 3
         )
     }
 }
