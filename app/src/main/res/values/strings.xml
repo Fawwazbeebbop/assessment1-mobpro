@@ -19,7 +19,7 @@
     <string name="count">Count</string>
     <string name="average">Average 1 Period</string>
     <string name="share">Share</string>
-    <string name="copyright">Copyright © 2024 Fawwaz Maulana. All Rights Reserved.</string>
+    <string name="copyright">Copyright © 2024 Fawwaz Maulana.\nAll Rights Reserved.</string>
     <string name="share_button">Expense 1: %1$s IDR\nExpense 2: %2$s IDR\nExpense 3: %3$s IDR\n\nAverage: %4$s</string>
     <string name="clicky_list">%1$s Your Average Expenses in this Period and Year !</string>
     <string name="empty_list">List is Empty !</string>
