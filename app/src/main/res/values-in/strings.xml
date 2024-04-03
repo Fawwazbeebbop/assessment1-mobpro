@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Mo-Note</string>
     <string name="greeting">Mulai</string>
-    <string name="introduction">Selamat Datang di Mo-Note \n (Money-Note)</string>
+    <string name="introduction">Selamat Datang di Mo-Note \n ( Money-Note )</string>
     <string name="start_button">mulai</string>
     <string name="back_button">kembali</string>
     <string name="description">Mo-Note merupakan aplikasi pencatat keuangan yang dapat membantu menghitung
@@ -15,4 +15,9 @@
     <string name="period_2">Periode 2</string>
     <string name="count">Hitung</string>
     <string name="copyright">Hak Cipta © 2024 Fawwaz Maulana. Semua Hak Dilindungi.</string>
+    <string name="input_invalid">Tidak Boleh Kosong</string>
+    <string name="reset_button">Atur Ulang</string>
+    <string name="average">Rata-rata 1 periode</string>
+    <string name="share_button">Pengeluaran 1: %1$s IDR\nPengeluaran 2: %2$s IDR\nPengeluaran 3: %3$s IDR\n\nRata-rata: %4$s</string>
+    <string name="share">Bagikan</string>
 </resources>
